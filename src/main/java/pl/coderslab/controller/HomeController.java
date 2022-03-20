@@ -28,12 +28,15 @@ public class HomeController {
         logger.info("To jest log info, dodamy tutaj parametry {} <- cooo? {} ", "parametr1", 159);
         return "Logs should be in console";
     }
+
+
 //    @RequestMapping(value = "/response-encoding", produces = "text/plain;charset=UTF-8")
     @GetMapping("/body")
     @ResponseBody
     public String getBody(){
         return "To jest bezpośrednia odpowiedź, nie będziemy szukać widoków";
     }
+
 
 //    @RequestMapping(value = "/hello", method = RequestMethod.GET)
     @GetMapping("/hello")
