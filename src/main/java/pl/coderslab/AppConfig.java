@@ -23,7 +23,7 @@ import java.util.List;
 @ComponentScan
 public class AppConfig implements WebMvcConfigurer {
 
-//    @Override //TEN MOZE ALE NIE MUSI PSUC SONA PROSZE UWAZAC, skasowac w razie czego, może WADZIć :D
+////    @Override //TEN MOZE ALE NIE MUSI PSUC SONA PROSZE UWAZAC, skasowac w razie czego, może WADZIć :D
 //    public void configureMessageConverters(List<HttpMessageConverter<?>> converters) {
 //        StringHttpMessageConverter stringConverter = new StringHttpMessageConverter();
 //        stringConverter.setSupportedMediaTypes(Arrays.asList(new MediaType("text", "plain", StandardCharsets.UTF_8)));

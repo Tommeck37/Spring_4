@@ -4,12 +4,23 @@ public class CartItem {
 
     private Integer quantity;
     private Product product;
+    private String id;
 
 
-    public CartItem(Integer quantity, Product product) {
+    public String getId() {
+        return id;
+    }
+
+    public void setId() {
+        this.id = id;
+    }
+
+    public CartItem(Integer quantity, Product product, String id) {
         this.quantity = quantity;
         this.product = product;
+        this.id = id;
     }
+
 
     public Integer getQuantity() {
         return quantity;
